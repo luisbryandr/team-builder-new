@@ -1,5 +1,5 @@
 # team-builder-new
-# Task 2: Minimum Viable Product
+# Task 1: Minimum Viable Product
   [] Render a list of team members from state.
   [] Build a form to add a new member to the list of members.
  ### Setup your state
@@ -13,7 +13,7 @@
  Render your Form component in App. The App component should hand down through props any callback(s) needed for Form to do its job (adding new members to your team members state on submit).
     [] Now you are finished with MVP! Move on to the stretch goals at the bottom. The first is to add the functionality to edit members. As this is a very complicated process, steps have been included here to help you through that.
 
-**Task 3: Add the edit functionality (STRETCH)**
+**Task 2: Add the edit functionality (STRETCH)**
 Next we're going to reuse the Form component to edit team members. You can try to accomplish this goal completely on your own, or you can follow the steps below. These steps assume your Form maintains its own state.
 
 ### Get App.js ready for editing members
