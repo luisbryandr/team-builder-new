@@ -1,6 +1,8 @@
 import './App.css';
 import { useState } from 'react';
 
+import TeamMembers from './components/TeamMembers';
+
 const dummyTeam =  [
   {
     name: "Luis",
@@ -18,19 +20,7 @@ function App() {
   return (
     <div className="App">
       <h1>Build your Team!</h1>
-      <div>
-        <h3>Team Members:</h3>
-        {teamMembers.map( (member,index) => {
-          return (
-            <div>
-              <p key={index}>{member.name}</p>
-              <p key={index}>{member.role}</p>
-              <p key={index}>{member.email}</p>
-            </div>
-            
-          )
-        })}
-      </div>
+      <TeamMembers teamMembers={dummyTeam}/>
       
 
     </div>
